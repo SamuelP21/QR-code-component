@@ -4,7 +4,7 @@ import qr from './assets/images/image-qr-code.png'
 
 const App = () => {
   return (
-    <main className='bg-blue-50 flex justify-center items-center min-h-screen '>
+    <main className='bg-blue-50 flex justify-center items-center min-h-screen pl-10 pr-10'>
         <section className='bg-white w-[400px]  rounded-lg p-5'>
             <img className=' rounded-lg ' src={qr} alt="" />
             <p className=' mt-5 text-xl text-blue-900 text-center  '>Imporvide your front-end skills by building projects</p>
